@@ -1,0 +1,36 @@
+:root {
+    --bg-primary: #163020;
+    --bg-secondary: #304D30;
+    --text-primary: #EEF0E5;
+    --text-secondary: #B6C4B6;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 80%;
+    padding: 0 20px 0 20px;
+    min-height: 100vh;
+    background-color: var(--bg-secondary);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width:960px) {
+    
+}
